@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment"
+    android:orientation="vertical"
+    android:background="#F4D8B0">
+<EditText
+    android:id="@+id/edt_user_name"
+    android:layout_marginTop="100dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25sp"
+    android:textColor="@color/textColor"
+    android:hint="User Name"
+    android:textColorHint="@color/hintColor"
+    />
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Password"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintColor"
+        />
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="@color/textColor"
+        android:background="#F89311"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
